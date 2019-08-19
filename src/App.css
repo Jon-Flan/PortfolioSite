@@ -1,0 +1,311 @@
+/*header styling*/
+.header-color{
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* Landing Page styling, the grid, the text, headshot image*/
+.landing-grid{
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.headshot-image{
+  height: 250px;
+  padding-top: 5em;
+}
+.banner-text-landing{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text-landing h1{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text-landing hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text-landing p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  font-size: 50px;
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+
+}
+
+/*About me page styling, the grid and banners and text*/
+.aboutMe-grid{
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  margin-top:2%;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.banner-text i{
+  font-size: 20px;
+  color: white;
+}
+
+.BannerAd1{
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+}
+
+.BannerAd{
+  height: 400px;
+  width: 550px;
+  margin-left: 20%;
+}
+/* styling for projects grids, most of project page is inline styling*/
+.projects-grid{
+  display: flex;
+}
+
+/*Media queries for screen size, everything is responsive anyway but the project cards became distorted, this is to fix that*/
+@media screen and (max-width: 1200px) {
+  .projects-grid{
+  display: flex;
+  margin-left: 2%;
+}
+
+.banner-text-landing{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text-landing h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text-landing hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text-landing p{
+  color: white;
+  font-size: 15px;
+  padding: 1em;
+}
+
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  font-size: 50px;
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.headshot-image{
+  height: 200px;
+  padding-top: 5em;
+}
+
+.BannerAd{
+  height:450px;
+  width: 500px;
+  margin-left: 20%;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+.aboutMe-grid{
+  padding-top: 3%;
+}
+
+.BannerAd{
+  height: 400px;
+  width: 450px;
+  margin-left: 17%;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .projects-grid{
+  display: inline-grid;
+  margin-left: 5%;
+}
+
+.banner-text-landing{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text-landing h1{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text-landing hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text-landing p{
+  color: white;
+  font-size: 18px;
+  padding: 1em;
+}
+
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  font-size: 50px;
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+
+}
+
+.headshot-image{
+  height: 175px;
+  padding-top: 5em;
+}
+
+.BannerAd{
+  height: 350px;
+  width: 400px;
+  margin-left: 5%;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+  .projects-grid{
+  display: inline-grid;
+  margin-left:0%;
+  padding-left: 0%;
+}
+
+.banner-text-landing{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text-landing h1{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text-landing hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text-landing p{
+  color: white;
+  font-size: 10px;
+  padding: 1em;
+}
+
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  font-size: 50px;
+  color: white;
+  font-size: 3em;
+  padding: 8px;
+
+}
+
+.headshot-image{
+  height: 150px;
+  padding-top: 5em;
+}
+.aboutMe-grid{
+  padding-top: 10%;
+}
+
+.BannerAd{
+  height: 250px;
+  width: 250px;
+  margin-left: 10%;
+}
+}
